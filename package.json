@@ -1,0 +1,19 @@
+{
+  "name": "bash-commands",
+  "version": "1.0.0",
+  "description": "Useful bash commands that can be used on a daily basis",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricardoribasmrf/bash-commands.git"
+  },
+  "keywords": [
+    "bash",
+    "automation"
+  ],
+  "author": "Ricardo Ribas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ricardoribasmrf/bash-commands/issues"
+  },
+  "homepage": "https://github.com/ricardoribasmrf/bash-commands#readme"
+}
