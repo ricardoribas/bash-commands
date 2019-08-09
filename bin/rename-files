@@ -1,3 +1,0 @@
-#!/bin/bash
-
-find . -iname $1 -type f -exec bash -c 'directory="$(dirname $0)"; filename="$0"; mv $filename $directory/$1' {} $2 \;
