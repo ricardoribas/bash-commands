@@ -6,6 +6,9 @@
     "type": "git",
     "url": "git+https://github.com/ricardoribasmrf/bash-commands.git"
   },
+  "scripts": {
+    "postinstall": "cross-env ./setup.sh"
+  },
   "keywords": [
     "bash",
     "automation"
@@ -15,5 +18,8 @@
   "bugs": {
     "url": "https://github.com/ricardoribasmrf/bash-commands/issues"
   },
-  "homepage": "https://github.com/ricardoribasmrf/bash-commands#readme"
+  "homepage": "https://github.com/ricardoribasmrf/bash-commands#readme",
+  "devDependencies": {
+    "cross-env": "^6.0.0"
+  }
 }
