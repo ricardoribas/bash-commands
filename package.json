@@ -7,7 +7,7 @@
     "url": "git+https://github.com/ricardoribasmrf/bash-commands.git"
   },
   "scripts": {
-    "postinstall": "cross-env ./setup.sh"
+    "setup": "cross-env ./setup.sh"
   },
   "keywords": [
     "bash",
