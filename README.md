@@ -11,8 +11,16 @@ Feel free to backup your \$PATH value if you don't want to keep commands anymore
 
 ## List of commands
 
-1 - clean-git-branches: Clean all your workspace git branches except the current one and the master
+1 - `clean-git-branches`: Clean all your workspace git branches except the current one and the master
 
-2 - remove-orig: Remove all \*.orig files inside your current work directory
+2 - `remove-orig`: Remove all _.orig_ files inside your current work directory
 
-3 - install-aws: Install the cli of amazon
+3 - `install-aws`: Install the cli of amazon v1
+
+4 - `copy-last-tags`: Copy to your clipboard the git tags under **HEAD**
+
+5 - `ios-devices`: Get the list of all target devices installed on your machine. Useful to run an iOS application on a specific device
+
+6 - `port-usage`: Get the process id using a specific port
+
+7 - `reset-react-native-environment`: Reset all symlinks and rebuild the current react-native project
