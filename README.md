@@ -28,3 +28,5 @@ Feel free to backup your \$PATH value if you don't want to keep commands anymore
 8 - `request-volume-expansion`: Increase the size of EC2 instances. It requires the local machine to have the AWS credentials. Fore more info check the [docs](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)
 
 9 - `image-stepper`: Create images for all the steps inside a docker image:tag. Credits for [docker-in-practice](https://github.com/docker-in-practice/image-stepper)
+
+10 - `open-branch`: Open the repository url of the current branch. It requires that the branch is available remotely. Otherwise, a 404 will be returned.
