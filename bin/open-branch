@@ -1,0 +1,23 @@
+#!/bin/bash
+
+REPOSITORY_URL=$(git remote -v \
+  | awk '/fetch/{print $2}' \
+  | sed -Ee 's#(git@|git://)#http://#' -e 's@com:@com/@' -e 's/(-[a-zA-Z]*):/\//' \
+  | sed -e 's/\.git//g'
+) 
+
+BRANCH_NAME=$(git branch | grep "*" | awk '{ print $2 }')
+
+echo "repository url: $REPOSITORY_URL"
+
+if [[ $REPOSITORY_URL == *"github.com"* ]]; then
+  echo "opening github repository..."
+
+  open "$REPOSITORY_URL/tree/$BRANCH_NAME"
+fi
+
+if [[ $REPOSITORY_URL == *"bitbucket.org"* ]]; then
+  echo "opening bitbucket repository..."
+
+  open "$REPOSITORY_URL/branch/$BRANCH_NAME"
+fi
