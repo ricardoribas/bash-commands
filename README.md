@@ -30,3 +30,5 @@ Feel free to backup your \$PATH value if you don't want to keep commands anymore
 9 - `image-stepper`: Create images for all the steps inside a docker image:tag. Credits for [docker-in-practice](https://github.com/docker-in-practice/image-stepper)
 
 10 - `open-branch`: Open the repository url of the current branch. It requires that the branch is available remotely. Otherwise, a 404 will be returned.
+
+11 - `install-localhost-https`: Install a https localhost certificate and save the key files on the current directory.
