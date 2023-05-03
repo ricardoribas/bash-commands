@@ -15,20 +15,16 @@ Feel free to backup your \$PATH value if you don't want to keep commands anymore
 
 2 - `remove-orig`: Remove all _.orig_ files inside your current work directory
 
-3 - `install-aws`: Install the cli of amazon v1
+3 - `copy-last-tags`: Copy to your clipboard the git tags under **HEAD**
 
-4 - `copy-last-tags`: Copy to your clipboard the git tags under **HEAD**
+4 - `image-stepper`: Create images for all the steps inside a docker image:tag. Credits for [docker-in-practice](https://github.com/docker-in-practice/image-stepper)
 
-5 - `ios-devices`: Get the list of all target devices installed on your machine. Useful to run an iOS application on a specific device
+5 - `eslint-changed-files`: Run eslint only over the files changes. Leave the overall linting for your CI process
 
-6 - `port-usage`: Get the process id using a specific port
+6 - `ios-devices`: Get the list of all target devices installed on your machine. Useful to run an iOS application on a specific device
 
-7 - `reset-react-native-environment`: Reset all symlinks and rebuild the current react-native project
+7 - `install-localhost-https`: Install a https localhost certificate and save the key files on the current directory.
 
-8 - `request-volume-expansion`: Increase the size of EC2 instances. It requires the local machine to have the AWS credentials. Fore more info check the [docs](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)
+8 - `reset-react-native-environment`: Reset all symlinks and rebuild the current react-native project
 
-9 - `image-stepper`: Create images for all the steps inside a docker image:tag. Credits for [docker-in-practice](https://github.com/docker-in-practice/image-stepper)
-
-10 - `open-branch`: Open the repository url of the current branch. It requires that the branch is available remotely. Otherwise, a 404 will be returned.
-
-11 - `install-localhost-https`: Install a https localhost certificate and save the key files on the current directory.
+9 - `request-volume-expansion`: Increase the size of EC2 instances. It requires the local machine to have the AWS credentials. Fore more info check the [docs](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)
