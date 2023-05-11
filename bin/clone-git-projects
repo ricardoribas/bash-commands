@@ -1,0 +1,30 @@
+#!/bin/bash
+
+usage() {
+  echo "Usage: $0 [ -p repoFilePath ] [ -r repo1,repo2,repo3 ]" 1>&2
+}
+
+exit_abnormal() {
+  usage
+  exit 1
+}
+
+while getopts ":p:r:" options; do  
+    case "${options}" in
+        p)
+            REPOSITORIES_PATH=${OPTARG}
+        ;;
+        r)
+            REPOSITORIES_LIST=${OPTARG}
+        ;;
+        *)
+            exit_abnormal
+        ;;
+    esac
+done
+
+if [ -z "$REPOSITORIES_PATH" ] && [ -z "$REPOSITORIES_LIST" ]
+then
+    exit_abnormal
+fi
+

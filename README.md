@@ -28,3 +28,5 @@ Feel free to backup your \$PATH value if you don't want to keep commands anymore
 8 - `reset-react-native-environment`: Reset all symlinks and rebuild the current react-native project
 
 9 - `request-volume-expansion`: Increase the size of EC2 instances. It requires the local machine to have the AWS credentials. Fore more info check the [docs](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html)
+
+10 - `clone-git-projects`: Clone several github repositories at once
