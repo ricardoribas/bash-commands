@@ -17,7 +17,7 @@ while getopts ":p:r:" options; do
         r)
             REPOSITORIES_LIST=${OPTARG}
         ;;
-        *)
+        ?)
             exit_abnormal
         ;;
     esac
