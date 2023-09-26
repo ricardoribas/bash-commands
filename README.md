@@ -32,3 +32,5 @@ Feel free to backup your \$PATH value if you don't want to keep commands anymore
 10 - `clone-git-projects`: Clone several github repositories at once
 
 11 - `remove-all-docker-images`: Remove all docker images locally. Bear in mind that is a pretty destructive action.
+
+12 - `disk-usage`: Shows the disk usage in the current working directory
